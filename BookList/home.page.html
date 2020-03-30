@@ -1,0 +1,25 @@
+
+
+ 
+
+ 
+
+<ion-content>
+    <br>
+    <br>
+    <br>
+    <div class="ion-text-center">
+    <span   *ngFor="let book of Books ; ">
+
+        {{book.nom}}  
+     <br>
+     </span>
+ <br>
+
+  <button  [routerLink]="['/edit-book',3]" > Go To EDit Book</button>
+  
+    
+ 
+</div>
+
+</ion-content>
